@@ -25,7 +25,7 @@ project depends on them. If you'd rather use your own workflow, you lose nothing
 
 ```bash
 git clone --branch skill-agent --single-branch \
-  https://github.com/henrique-simoes/OpenAI-agents-everywhere-hackathon.git ae-skills
+  https://github.com/henrique-simoes/AI-Tinkerers-OpenAI-agents-everywhere-hackathon.git ae-skills
 ```
 
 ### 2. Copy them where your agent looks
@@ -137,3 +137,8 @@ and bump `metadata.version`. Flip 🟡 → ✅ as you verify sponsor APIs agains
 ## License
 
 MIT — see [LICENSE](LICENSE). Share these with other teams freely.
+
+---
+
+*Built at the AI Tinkerers Global Hackathon, presented by OpenAI. This is a participant
+project — not affiliated with, or endorsed by, OpenAI or AI Tinkerers.*
