@@ -20,7 +20,7 @@ Install them into your own agent, whichever one you use:
 ```bash
 # grab just the skills branch, without touching your working copy of main
 git clone --branch skill-agent --single-branch \
-  https://github.com/henrique-simoes/OpenAI-agents-everywhere-hackathon.git ae-skills
+  https://github.com/henrique-simoes/AI-Tinkerers-OpenAI-agents-everywhere-hackathon.git ae-skills
 ```
 
 Then copy the skills into your harness's skills directory:
@@ -77,3 +77,8 @@ Detailed hour-by-hour plan: `references/submission-checklist.md` inside the hack
 
 MIT — see [LICENSE](LICENSE). The hackathon requires code others can review, reuse and
 learn from.
+
+---
+
+*Built at the AI Tinkerers Global Hackathon, presented by OpenAI. This is a participant
+project — not affiliated with, or endorsed by, OpenAI or AI Tinkerers.*
