@@ -1,0 +1,29 @@
+# Secrets — never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+.pnp/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Builds
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# Tooling / editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.log
+.cache/
+coverage/
