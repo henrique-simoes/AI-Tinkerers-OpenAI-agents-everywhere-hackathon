@@ -13,7 +13,7 @@ description: >-
 license: MIT
 compatibility: Works in any Agent Skills compatible harness. No system packages required; network access needed to reach sponsor docs and APIs.
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   pairs-with: agent-relay
   event-date: "2026-09-12"
   source: https://aitinkerers.org/hackathons/global/agents-everywhere
@@ -99,12 +99,16 @@ committed secrets. `.env.example` only.
 | **OpenAI** | Global, presenting | Agents SDK, Realtime (voice), Apps SDK. Prizes are OpenAI credits. |
 | **CopilotKit** 🏆 | Global | **Named prize.** In-app agentic UI + generative UI over **AG-UI**. |
 | **OpenRouter** | Global | One OpenAI-compatible API, hundreds of models. Failover insurance. |
-| **Ambiguous AI** 🏆 | Partner | **Named prize.** 17-app workspace; agents get real identities and coworker surfaces. |
+| **Ambiguous AI** 🏆 | Partner | **Named prize (DGX Spark).** 17-app workspace + an undocumented AI-coworker runtime: personas, versioned playbooks, accountable human managers. |
 | **Exa** | Partner | Search/retrieval built for agents. Credits attached to all three placements. |
 | **Trigger.dev** | Partner | Background jobs, durable long-running and multi-turn AI tasks. |
 | **Auth0** | Partner | **Token Vault** — the legitimate way for an agent to act on a user's accounts. |
 | **Mozilla.ai** | Partner | `any-llm`, `any-agent` — provider neutrality and framework evaluation. |
 | **Kimchi by Cast AI** | Local (SP) | OpenAI-compatible open-model inference; agent governance and audit. |
+
+> **Ambiguous tip:** read <https://app.ambiguous.ai/api/openapi.json> (public, no auth, 939
+> paths) before their marketing pages. The `/api/coworkers/*` runtime that wins their prize is
+> in the spec and nowhere on the website. See [references/ambiguous-ai.md](references/ambiguous-ai.md).
 
 **Two named prizes exist:** Best Use of **CopilotKit** and Best Use of **Ambiguous AI**.
 An idea that earns one is worth more than an idea that earns none — but only if the
